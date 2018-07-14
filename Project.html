@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>type</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+		<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" style="background: #d4d8d8;">
+		<div>
+			<img src="https://d25l9y5jxnkkfw.cloudfront.net/6vxcO2fCQLqXXbkVFqhp_R3jBrDcu_bigger.jpg" height="auto" width="auto" style="float:left;padding: 10px;">
+		</div>
+		<div class="col-sm-9 col-xs-9 col-md-9 col-lg-9" style="max-width: 100%">
+			<p>Jimmy wants to know ...</p>
+			<h2>What is a group of Unicorns called?</h2>
+		</div>
+	</div>
+
+	<div>
+		<div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+			<div class="container">
+				<img src="https://www.filepicker.io/api/file/DKsWEj9nS9e03e6nWmTV" alt="Unicorn" height="275px" width="275.66px" style="float:left;padding-right:30px;max-width: 100%;">
+				<div class="text-block" id="click">
+   					<h4>View Results</h4>
+  				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8" style="margin-top:20px;">
+			<button class="options" id="display1" value="Increse" style="margin-bottom: 10px; border-radius: 8px;padding-right: 10px;">Blessing</button><br>
+			<button class="options" id="display2" value="Increse" style="margin-bottom: 10px; border-radius: 8px;padding-right: 10px;">Herd</button><br>
+			<button class="options" id="display3" value="Increse" style="margin-bottom: 10px; border-radius: 8px;padding-right: 10px;">Sparkle</button><br>
+			<button class="options" id="display4" value="Increse" style="border-radius: 8px;padding-right: 10px;">Spark</button>
+		</div>
+	</div>
+
+												<!-- social Media -->
+
+	<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" align="right" id="social">
+		<button class="tweet"><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i> <b style="color: white;"> TWEET</b></a></button>
+		<button class="facebook"><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i> <b style="color:white;"> SHARE</b> </a></button>
+	</div>
+
+							<!-- Result would be displayed when "View Result" is clicked -->
+
+	<div id="result">
+		<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" style="background: #d4d8d8; ">
+			<div>
+				<img src="https://d25l9y5jxnkkfw.cloudfront.net/6vxcO2fCQLqXXbkVFqhp_R3jBrDcu_bigger.jpg" height="auto" width="auto" style="float:left;padding:10px;">
+			</div>
+			<div class="col-sm-9">
+				<p>Jimmy wants to know ...</p>
+				<h2>What is a group of Unicorns called?</h2>
+			</div>
+		</div>
+		<!-- check -->
+		<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
+
+			<div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+				<div class="container" style="padding-right: 0;" >
+						<img src="https://www.filepicker.io/api/file/DKsWEj9nS9e03e6nWmTV" alt="Unicorn" height="275px" width="275.66px" style="float:left;padding-right:30px;max-width: 100%;">
+					<div class="text-block" id="click" align="center" style="top: 0;">
+						<h1 class="view" align="center"  style="font-weight: 500px;" id="percent"><b><span id="displayPercent">0</span>%</b></h1>
+    					<h3 class="view">Voted for <span id="text"></span></h3>
+   						<h1 class="view" id="displayVote"><b>0</b></h1>
+    					<h3 class="view">Total Votes</h3>
+ 				 	</div>
+  				</div>
+			</div>
+			<div class="col-sm-8 col-xs-8 col-md-8 col-lg-8" style="margin-top: 40px">
+				<p style="margin-top: 8px;margin-bottom: 0;">Blessing</p>
+					<progress value="0" max="100" class="progress"  id="bless"></progress>
+				<p style="margin-top: 8px;margin-bottom: 0;">Herd</p>
+					<progress value="0" max="100" class="progress" id="herd"></progress>
+				<p style="margin-top: 8px;margin-bottom: 0;">Sparkle</p>
+					<progress value="0" max="100" class="progress" id="sparkle"></progress>
+				<p style="margin-top: 8px;margin-bottom: 0;">Spark</p>
+					<progress value="0" max="100" class="progress" id="park"></progress>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12" align="right" id="social">
+			<button class="tweet"><a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i> <b style="color: white;"> TWEET</b></a></button>
+			<button class="facebook"><a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="color: white;"></i> <b style="color:white;"> SHARE</b> </a></button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="Project.js"></script>
+</body>
+</html>
